@@ -16,7 +16,7 @@
   flag: "flag{REDACTED}";
 }
 
-// we can iterate object using Object.keys or Object.values
+// we can iterate object using Object.entries, Object.keys and Object.values
 // since we need the values objects, we run Object.values
 Object.values(this); // ["flag{REDACTED}"]
 
